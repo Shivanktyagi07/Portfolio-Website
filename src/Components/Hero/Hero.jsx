@@ -11,7 +11,7 @@ export const Hero = () => {
         <p className={styles.description}>
         Full MERN Stack-Developer | Transforming ideas into web solutions. Proficient in React, Node.js, and MongoDB. Committed to Innovation and continuous Learning . Let's connect and collaborate!
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:shivanktyagi976@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
