@@ -8,7 +8,9 @@
   padding-top: 61px;
   z-index: 2;
   margin: 0 10%;
+  background: "rgb(34,193,195)",
 }
+  
 
 .title {
   font-size: 30px;
