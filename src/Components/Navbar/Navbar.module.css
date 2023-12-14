@@ -22,6 +22,10 @@
     /* background: linear-gradient(90deg, rgba(253,29,112,1) 40%, rgba(30,159,67,1) 71%); */
     
 }
+.navbar a{
+  color: aliceblue;
+}
+ 
 
 
   
@@ -45,7 +49,7 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  color: #ffff;
   text-decoration: none;
 }
 
