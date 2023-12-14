@@ -2,26 +2,23 @@
     {
       "title": "Project A",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "This is a project made to learn the concepts to reactRouter",
+      "skills": ["React"],
+      "source": "https://github.com/Shivanktyagi07/react-project/tree/main/reactRouterProject"
     },
     {
       "title": "Project B",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "This is a project made to learn the conept of context Api in React",
+      "skills": ["React"],
+      "source": "https://github.com/Shivanktyagi07/react-project/tree/main/contextAPIproject"
     },
     {
       "title": "Project C",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "This is a project to learn the concepts of redux Toolkit",
+      "skills": ["React"],
+      "source": "https://github.com/Shivanktyagi07/react-project/tree/main/reduxToolkit"
     }
   ]
   
