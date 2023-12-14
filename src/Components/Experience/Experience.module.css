@@ -13,13 +13,14 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 30px;
 }
 
 .skills {
