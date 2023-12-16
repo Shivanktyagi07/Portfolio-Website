@@ -86,14 +86,25 @@ export const Experience = () => {
       <h2 className={styles.title}>Skills</h2>
       <div className={styles.content}>
         <Slider {...sliderSettings} className={styles.skills}>
-          {skills.map((skill, id) => (
+          {/* {skills.map((skill, id) => (
             <div key={id} className={styles.skill}>
               <div className={styles.skillImageContainer}>
                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
               </div>
               <p>{skill.title}</p>
             </div>
-          ))}
+          ))} */}
+          {skills.map((skill, id) => (
+  <div key={id} className={styles.skill}>
+    <div className={styles.skillImageContainer}>
+      <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+    </div>
+    <div className={styles.skillContent}>
+      <p>{skill.title}</p>
+    </div>
+  </div>
+))}
+
         </Slider>
       </div>
     </section>

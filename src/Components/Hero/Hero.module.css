@@ -24,8 +24,12 @@
 .title {
   font-size: 50px;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 30px;
   font-family: var(--font-roboto);
+  /* overflow: hidden;  */
+  white-space: nowrap; 
+  vertical-align: middle;
+  /* animation: typing 2s steps(30) 1s forward;  */
   
   /* background: linear-gradient(
     90deg,
@@ -36,11 +40,30 @@
   -webkit-background-clip: text;  */
 }
 
+.title span {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(30) infinite;
+  color: #007bff; 
+  vertical-align: middle;
+}
 
 .description {
   font-size: 20px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  
+  
+}
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with 0 width */
+  }
+  to {
+    width: 100%; /* End with full width */
+  }
 }
 
 .contactBtn {

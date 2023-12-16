@@ -23,12 +23,9 @@
     
 }
 .navbar a{
-  color: aliceblue;
+  color: #ffff;
 }
  
-
-
-  
 
 .title {
   font-size: 30px;
@@ -39,6 +36,10 @@
 
 .menu {
   display: flex;
+  
+}
+.menuBtn{
+  color: #fdf02d;
 }
 
 .menuItems {
@@ -49,7 +50,7 @@
 
 .menuItems a {
   font-size: 25px;
-  color: #ffff;
+  color: #fdf02d;
   text-decoration: none;
 }
 

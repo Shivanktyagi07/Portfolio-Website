@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+  position: relative;
   color: var(--color-text);
   margin-top: 79px;
   margin-left: 10%;
@@ -14,6 +15,7 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
 }
 
 .content {
@@ -26,6 +28,8 @@
 .skills {
   width: 45%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 37px;
 }
@@ -39,22 +43,31 @@
 
 .skillImageContainer {
   background-color: var(--color-secondary);
-  border-radius: 100%;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 120px;
   height: 120px;
+  margin-bottom: 10px;
 }
 
 .skillImageContainer img {
-  width: 75px;
+  /* width: 75px; */
+  max-width: 100%; 
+  max-height: 100%; 
+  
+}
+.skillContent {
+  text-align: center;
 }
 
 .skill p {
   font-size: 25px;
   font-family: var(--font-roboto);
   font-weight: 500;
+  margin: 0;
+ 
 }
 
 .history {
