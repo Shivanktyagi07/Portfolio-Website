@@ -1,0 +1,98 @@
+@import "../../vars.css";
+
+.navbar {
+   /* position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  z-index: 2;
+  margin: 0 4%;
+  width: 100vw;
+  background: "rgb(34,193,195)",
+  background: rgb(107,30,159); 
+  background: linear-gradient(90deg, rgba(107,30,159,1) 0%, rgba(253,29,29,1) 29%, rgba(252,176,69,1) 100%);  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 80px;
+    /* background: rgb(107,30,159);  */
+    background: black;
+    /* background: linear-gradient(90deg, rgba(253,29,112,1) 40%, rgba(30,159,67,1) 71%); */
+    
+}
+.navbar a{
+  color: #ffff;
+}
+ 
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.menu {
+  display: flex;
+  
+}
+.menuBtn{
+  color: #fdf02d;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 25px;
+  color: #fdf02d;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}
